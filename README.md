@@ -11,7 +11,14 @@
 | verysync | 1.3.5 | [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_1.3.5.qpkg) | Sync client based on P2P |
 | Bing Wallpaper | 1.0 | [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.0.qpkg) | Automatically change QTS login screen background picture daily |
 
-[toc]
+<!-- TOC -->
+- [QPKG list](#qpkg-list)
+  - [1. Code Server](#1-code-server)
+  - [2. Simple Torrent](#2-simple-torrent)
+  - [3. KMS](#3-kms)
+  - [4. Hugo](#4-hugo)
+  - [5. verysync](#5-verysync)
+  - [6. Bing Wallpaper](#6-bing-wallpaper)
 
 ## 1. Code Server
 
