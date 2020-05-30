@@ -2,19 +2,22 @@
 
 > Note: test passed only with QNAP TS-453Bmini, x64 based.
 
-| App | Latest | Download | Description |
-|:--|:--:|:--:|:--:|
-| Code Server | | | Self-hosted third-party Visual Studio Codespaces |
-| Simple Torrent | 1.2.6 | [Click](https://github.com/Jay-Young/qpkg/raw/master/simple-torrent/simpletorrent_1.2.6.qpkg) | Self-hosted remote torrent client (rebranded from Cloud Torrent) |
-| KMS | 2020-03-28 | [Click](https://github.com/Jay-Young/qpkg/raw/master/kms/kms_2020-03-28.qpkg) | KMS Emulator |
-| Hugo | 0.70.0 | [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg) | Framework for building websites written in go |
-| verysync | 1.3.5 | [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_1.3.5.qpkg) | Sync client based on P2P |
-| Bing Wallpaper | 1.0 | [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.0.qpkg) | Automatically change QTS login screen background picture daily |
+| App            |   Latest   |                                            Download                                            |                           Description                            |
+| :------------- | :--------: | :--------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: |
+| Code Server    |   3.4.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/code-server/qvscode_3.4.0.qpkg)      |         Self-hosted third-party Visual Studio Codespaces         |
+| Simple Torrent |   1.2.10   | [Click](https://github.com/Jay-Young/qpkg/raw/master/simple-torrent/simpletorrent_1.2.10.qpkg) | Self-hosted remote torrent client (rebranded from Cloud Torrent) |
+| KMS            | 2020-03-28 |         [Click](https://github.com/Jay-Young/qpkg/raw/master/kms/kms_2020-03-28.qpkg)          |                           KMS Emulator                           |
+| Hugo           |   0.70.0   |          [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg)          |          Framework for building websites written in go           |
+| verysync       |   1.3.5    |       [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_1.3.5.qpkg)       |                     Sync client based on P2P                     |
+| Bing Wallpaper |    1.0     |   [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.0.qpkg)   |  Automatically change QTS login screen background picture daily  |
 
 <!-- TOC -->
+
 - [QPKG list](#qpkg-list)
   - [1. Code Server](#1-code-server)
   - [2. Simple Torrent](#2-simple-torrent)
+    - [1.2.6](#126)
+    - [1.2.10](#1210)
   - [3. KMS](#3-kms)
   - [4. Hugo](#4-hugo)
   - [5. verysync](#5-verysync)
@@ -22,16 +25,40 @@
 
 ## 1. Code Server
 
+Source: <https://github.com/cdr/code-server>
+
+[Download Link](code-server/qvscode_3.4.0.qpkg)
+
+MD5: 40ada9e834005201a38c601f0bb5dcfb
+
+- Default port: 8080, default password: codeserver, default user data directory: `/share/***_DATA/.code-server/`
+- You can change the port and password in the config file(`/share/***_DATA/.qpkg/qvscode/config/config.yaml`), after that, just restart the app to apply the config.
+- So far, you can not change the user data directory, because the `user-data-dir` option is still not working in the `config.yaml`.
+- if `/etc/stunnel/stunnel.pem` exists, copy the file to QPKG cert directory and start with ssl secure. If `/etc/stunnel/stunnel.pem` renewed, restart the app to update the cert.
+
 ## 2. Simple Torrent
+
+Source: <https://github.com/boypt/simple-torrent>
+
+### 1.2.6
 
 [Download Link](simple-torrent/simpletorrent_1.2.6.qpkg)
 
 MD5: da36f5ca51a1791d72947f7f2f7e8fac
 
-Source: <https://github.com/boypt/simple-torrent>
-
-- Default folder: /share/Public/downloads, /share/Public/torrents. You can change in the WebUI settings after installed.
+- Default folder: `/share/***_DATA/Public/downloads`, `/share/***_DATA/Public/torrents`. You can change in the WebUI settings after installed.
 - Default user and password: user, ctorrent. Create env to change, AUTH=user:ctorrent
+
+### 1.2.10
+
+[Download Link](simple-torrent/simpletorrent_1.2.10.qpkg)
+
+MD5: ea8eb3399b2f62c466e3cf20aac8aa9f
+
+- Default folder: `/opt/downloads`, `/opt/torrents`. You can change in the WebUI settings after installed.
+- Default user and password: user, ctorrent. Create env to change, AUTH=user:ctorrent
+- if `/etc/stunnel/stunnel.pem` exists, copy the file to QPKG install root and start with ssl secure. If `/etc/stunnel/stunnel.pem` renewed, restart the app to update the cert.
+- This version contains `386, amd64, armv5, armv6, armv7, arm64` all binaries, the install script will automatically check the machine architecture to choose the correct version.
 
 ## 3. KMS
 
