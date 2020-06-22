@@ -10,6 +10,7 @@
 | Hugo           |   0.70.0   |          [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg)          |          Framework for building websites written in go           |
 | verysync       |   1.3.5    |       [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_1.3.5.qpkg)       |                     Sync client based on P2P                     |
 | Bing Wallpaper |    1.0     |   [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.0.qpkg)   |  Automatically change QTS login screen background picture daily  |
+| QRBTF          |  9458081   |         [Click](https://github.com/Jay-Young/qpkg/raw/master/qrbtf/qrbtf_9458081.qpkg)         |       QRBTF is a simple web app to beautify your QR code.        |
 
 <!-- TOC -->
 
@@ -22,6 +23,10 @@
   - [4. Hugo](#4-hugo)
   - [5. verysync](#5-verysync)
   - [6. Bing Wallpaper](#6-bing-wallpaper)
+  - [7. QRBTF](#7-qrbtf)
+    - [9458081](#9458081)
+    - [4452d3a](#4452d3a)
+    - [d42a40b](#d42a40b)
 
 ## 1. Code Server
 
@@ -97,3 +102,25 @@ Source: modified from <https://github.com/kkkgo/DSM_Login_BingWallpaper>
 - First you must change the login screen setting to the first template (single picture not the photo wall) in `Control Panel - General Settings - Login Screen`
 - Automatically download Bing wallpaper daily and set it as the QTS login screen background picture
 - Automatically save the wallpapers in path `$Share_Folder_Path/Public/BingWallPapers`. `$Share_Folder_Path` is usually like `/share/***_DATA/`, it differs from one machine to another.
+
+## 7. QRBTF
+
+Source: <https://github.com/ciaochaos/qrbtf>
+
+### 9458081
+
+[Download Link](qrbtf/qrbtf_9458081.qpkg)
+
+MD5: 270a49bc8aa1487cb06828e3c82373e8
+
+### 4452d3a
+
+[Download Link](qrbtf/qrbtf_4452d3a.qpkg)
+
+MD5: a0a9db6e7ec74c2c229f36596bc220c0
+
+### d42a40b
+
+[Download Link](qrbtf/qrbtf_d42a40b.qpkg)
+
+MD5: 61c7f314afa0140e83d07def81a3c69f
