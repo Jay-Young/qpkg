@@ -8,7 +8,7 @@
 | Simple Torrent |   1.2.10   | [Click](https://github.com/Jay-Young/qpkg/raw/master/simple-torrent/simpletorrent_1.2.10.qpkg) | Self-hosted remote torrent client (rebranded from Cloud Torrent) |
 | KMS            | 2020-03-28 |         [Click](https://github.com/Jay-Young/qpkg/raw/master/kms/kms_2020-03-28.qpkg)          |                           KMS Emulator                           |
 | Hugo           |   0.70.0   |          [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg)          |          Framework for building websites written in go           |
-| verysync       |   1.3.5    |       [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_1.3.5.qpkg)       |                     Sync client based on P2P                     |
+| verysync       |   1.4.4    |       [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_1.4.4.qpkg)       |                     Sync client based on P2P                     |
 | Bing Wallpaper |    1.0     |   [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.0.qpkg)   |  Automatically change QTS login screen background picture daily  |
 | QRBTF          |  9458081   |         [Click](https://github.com/Jay-Young/qpkg/raw/master/qrbtf/qrbtf_9458081.qpkg)         |       QRBTF is a simple web app to beautify your QR code.        |
 
@@ -22,6 +22,8 @@
   - [3. KMS](#3-kms)
   - [4. Hugo](#4-hugo)
   - [5. verysync](#5-verysync)
+    - [1.4.4](#144)
+    - [1.3.5](#135)
   - [6. Bing Wallpaper](#6-bing-wallpaper)
   - [7. QRBTF](#7-qrbtf)
     - [9458081](#9458081)
@@ -85,11 +87,19 @@ Source: <https://github.com/gohugoio/hugo>
 
 ## 5. verysync
 
+Source: <http://releases.verysync.com/releases>
+
+### 1.4.4
+
+[Download Link](verysync/verysync_1.4.4.qpkg)
+
+MD5: c77ea6b3a94f84de20ee594312b5330d
+
+### 1.3.5
+
 [Download Link](verysync/verysync_1.3.5.qpkg)
 
 MD5: cc205b4ee6738d3ef9261551983bb2d4
-
-Source: <http://www.verysync.com/download.html>
 
 ## 6. Bing Wallpaper
 
