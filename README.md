@@ -10,7 +10,7 @@
 | Hugo           |   0.70.0   |          [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg)          |          Framework for building websites written in go           |
 | verysync       |   1.4.4    |       [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_1.4.4.qpkg)       |                     Sync client based on P2P                     |
 | Bing Wallpaper |    1.0     |   [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.0.qpkg)   |  Automatically change QTS login screen background picture daily  |
-| QRBTF          |  9458081   |         [Click](https://github.com/Jay-Young/qpkg/raw/master/qrbtf/qrbtf_9458081.qpkg)         |       QRBTF is a simple web app to beautify your QR code.        |
+| QRBTF          |  1.2   |         [Click](https://github.com/Jay-Young/qpkg/raw/master/qrbtf/qrbtf_1.2.qpkg)         |       QRBTF is a simple web app to beautify your QR code.        |
 
 <!-- TOC -->
 
@@ -26,6 +26,9 @@
     - [1.3.5](#135)
   - [6. Bing Wallpaper](#6-bing-wallpaper)
   - [7. QRBTF](#7-qrbtf)
+    - [1.2](#12)
+    - [1.1](#11)
+    - [1.0](#10)
     - [9458081](#9458081)
     - [4452d3a](#4452d3a)
     - [d42a40b](#d42a40b)
@@ -116,6 +119,27 @@ Source: modified from <https://github.com/kkkgo/DSM_Login_BingWallpaper>
 ## 7. QRBTF
 
 Source: <https://github.com/ciaochaos/qrbtf>
+
+### 1.2
+
+[Download Link](qrbtf/qrbtf_1.2.qpkg)
+
+- Add a new style.
+  SP — 3
+- Add dark mode.
+
+### 1.1
+
+[Download Link](qrbtf/qrbtf_1.1.qpkg)
+
+- Add style description.
+- Add 4 new styles.
+  A — a1, A — a2, A — b1, A — b2
+- Add drag-to-scroll.
+
+### 1.0
+
+[Download Link](qrbtf/qrbtf_1.0.qpkg)
 
 ### 9458081
 
