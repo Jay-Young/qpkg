@@ -4,7 +4,7 @@
 
 | App            |   Latest   |                                            Download                                            |                           Description                            |
 | :------------- | :--------: | :--------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: |
-| Code Server    |   3.4.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/code-server/qvscode_3.4.0.qpkg)      |         Self-hosted third-party Visual Studio Codespaces         |
+| Code Server    |   3.5.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/code-server/qvscode_3.5.0.qpkg)      |         Self-hosted third-party Visual Studio Codespaces         |
 | Simple Torrent |   1.2.10   | [Click](https://github.com/Jay-Young/qpkg/raw/master/simple-torrent/simpletorrent_1.2.10.qpkg) | Self-hosted remote torrent client (rebranded from Cloud Torrent) |
 | KMS            | 2020-03-28 |         [Click](https://github.com/Jay-Young/qpkg/raw/master/kms/kms_2020-03-28.qpkg)          |                           KMS Emulator                           |
 | Hugo           |   0.70.0   |          [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg)          |          Framework for building websites written in go           |
@@ -17,33 +17,19 @@
 - [QPKG list](#qpkg-list)
   - [1. Code Server](#1-code-server)
   - [2. Simple Torrent](#2-simple-torrent)
-    - [1.2.6](#126)
-    - [1.2.10](#1210)
   - [3. KMS](#3-kms)
   - [4. Hugo](#4-hugo)
   - [5. verysync](#5-verysync)
-    - [1.5.5](#155)
-    - [1.5.4](#154)
-    - [1.5.3](#153)
-    - [1.5.2](#152)
-    - [1.4.4](#144)
-    - [1.3.5](#135)
   - [6. Bing Wallpaper](#6-bing-wallpaper)
   - [7. QRBTF](#7-qrbtf)
-    - [1.2](#12)
-    - [1.1](#11)
-    - [1.0](#10)
-    - [9458081](#9458081)
-    - [4452d3a](#4452d3a)
-    - [d42a40b](#d42a40b)
 
 ## 1. Code Server
 
 Source: <https://github.com/cdr/code-server>
 
-[Download Link](code-server/qvscode_3.4.0.qpkg)
+[Download Link](code-server/qvscode_3.5.0.qpkg)
 
-MD5: 40ada9e834005201a38c601f0bb5dcfb
+MD5: bb39e5899d988b65000f759915f0c7a1
 
 - Default port: 8080, default password: codeserver, default user data directory: `/share/***_DATA/.code-server/`
 - You can change the port and password in the config file(`/share/***_DATA/.qpkg/qvscode/config/config.yaml`), after that, just restart the app to apply the config.
@@ -53,17 +39,6 @@ MD5: 40ada9e834005201a38c601f0bb5dcfb
 ## 2. Simple Torrent
 
 Source: <https://github.com/boypt/simple-torrent>
-
-### 1.2.6
-
-[Download Link](simple-torrent/simpletorrent_1.2.6.qpkg)
-
-MD5: da36f5ca51a1791d72947f7f2f7e8fac
-
-- Default folder: `/share/***_DATA/Public/downloads`, `/share/***_DATA/Public/torrents`. You can change in the WebUI settings after installed.
-- Default user and password: user, ctorrent. Create env to change, AUTH=user:ctorrent
-
-### 1.2.10
 
 [Download Link](simple-torrent/simpletorrent_1.2.10.qpkg)
 
@@ -96,41 +71,9 @@ Source: <https://github.com/gohugoio/hugo>
 
 Source: <http://releases.verysync.com/releases>
 
-### 1.5.5
-
 [Download Link](verysync/verysync_1.5.5.qpkg)
 
 MD5: 6f57d51f3bad7a9ab5f0f560fa48bc99
-
-### 1.5.4
-
-[Download Link](verysync/verysync_1.5.4.qpkg)
-
-MD5: c2da13a74eb669d91c347f8b6b753654
-
-### 1.5.3
-
-[Download Link](verysync/verysync_1.5.3.qpkg)
-
-MD5: edf7cfa0015ce90aa84c436da355697d
-
-### 1.5.2
-
-[Download Link](verysync/verysync_1.5.2.qpkg)
-
-MD5: 1c5ef3c5bd38c2b13f4c8d2915c0247c
-
-### 1.4.4
-
-[Download Link](verysync/verysync_1.4.4.qpkg)
-
-MD5: c77ea6b3a94f84de20ee594312b5330d
-
-### 1.3.5
-
-[Download Link](verysync/verysync_1.3.5.qpkg)
-
-MD5: cc205b4ee6738d3ef9261551983bb2d4
 
 ## 6. Bing Wallpaper
 
@@ -148,41 +91,8 @@ Source: modified from <https://github.com/kkkgo/DSM_Login_BingWallpaper>
 
 Source: <https://github.com/ciaochaos/qrbtf>
 
-### 1.2
-
 [Download Link](qrbtf/qrbtf_1.2.qpkg)
 
 - Add a new style.
   SP — 3
 - Add dark mode.
-
-### 1.1
-
-[Download Link](qrbtf/qrbtf_1.1.qpkg)
-
-- Add style description.
-- Add 4 new styles.
-  A — a1, A — a2, A — b1, A — b2
-- Add drag-to-scroll.
-
-### 1.0
-
-[Download Link](qrbtf/qrbtf_1.0.qpkg)
-
-### 9458081
-
-[Download Link](qrbtf/qrbtf_9458081.qpkg)
-
-MD5: 270a49bc8aa1487cb06828e3c82373e8
-
-### 4452d3a
-
-[Download Link](qrbtf/qrbtf_4452d3a.qpkg)
-
-MD5: a0a9db6e7ec74c2c229f36596bc220c0
-
-### d42a40b
-
-[Download Link](qrbtf/qrbtf_d42a40b.qpkg)
-
-MD5: 61c7f314afa0140e83d07def81a3c69f
