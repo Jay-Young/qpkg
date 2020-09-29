@@ -10,7 +10,8 @@
 | Hugo           |   0.70.0   |          [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg)          |          Framework for building websites written in go           |
 | verysync       |   1.5.5    |       [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_1.5.5.qpkg)       |                     Sync client based on P2P                     |
 | Bing Wallpaper |    1.0     |   [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.0.qpkg)   |  Automatically change QTS login screen background picture daily  |
-| QRBTF          |  1.2   |         [Click](https://github.com/Jay-Young/qpkg/raw/master/qrbtf/qrbtf_1.2.qpkg)         |       QRBTF is a simple web app to beautify your QR code.        |
+| QRBTF          |    1.2     |           [Click](https://github.com/Jay-Young/qpkg/raw/master/qrbtf/qrbtf_1.2.qpkg)           |       QRBTF is a simple web app to beautify your QR code.        |
+| GitHub CLI     |   1.0.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/githubcli/githubcli_1.0.0.qpkg)      |                 Take GitHub to the command line                  |
 
 <!-- TOC -->
 
@@ -22,6 +23,7 @@
   - [5. verysync](#5-verysync)
   - [6. Bing Wallpaper](#6-bing-wallpaper)
   - [7. QRBTF](#7-qrbtf)
+  - [8. GitHub CLI](#8-github-cli)
 
 ## 1. Code Server
 
@@ -96,3 +98,13 @@ Source: <https://github.com/ciaochaos/qrbtf>
 - Add a new style.
   SP — 3
 - Add dark mode.
+
+## 8. GitHub CLI
+
+Source: <https://github.com/cli/cli>
+
+[Download Link](githubcli/githubcli_1.0.0.qpkg)
+
+MD5: 2fda03f70f4bfe0eb4a2af44444129cf
+
+For detailed manual here: <https://cli.github.com/manual>
