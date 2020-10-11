@@ -5,7 +5,7 @@
 | App            |   Latest   |                                            Download                                            |                           Description                            |
 | :------------- | :--------: | :--------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: |
 | Code Server    |   3.5.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/code-server/qvscode_3.5.0.qpkg)      |         Self-hosted third-party Visual Studio Codespaces         |
-| Simple Torrent |   1.2.10   | [Click](https://github.com/Jay-Young/qpkg/raw/master/simple-torrent/simpletorrent_1.2.10.qpkg) | Self-hosted remote torrent client (rebranded from Cloud Torrent) |
+| Simple Torrent |   1.2.11   | [Click](https://github.com/Jay-Young/qpkg/raw/master/simple-torrent/simpletorrent_1.2.11.qpkg) | Self-hosted remote torrent client (rebranded from Cloud Torrent) |
 | KMS            | 2020-03-28 |         [Click](https://github.com/Jay-Young/qpkg/raw/master/kms/kms_2020-03-28.qpkg)          |                           KMS Emulator                           |
 | Hugo           |   0.70.0   |          [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg)          |          Framework for building websites written in go           |
 | verysync       |   1.5.5    |       [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_1.5.5.qpkg)       |                     Sync client based on P2P                     |
@@ -42,9 +42,9 @@ MD5: bb39e5899d988b65000f759915f0c7a1
 
 Source: <https://github.com/boypt/simple-torrent>
 
-[Download Link](simple-torrent/simpletorrent_1.2.10.qpkg)
+[Download Link](simple-torrent/simpletorrent_1.2.11.qpkg)
 
-MD5: ea8eb3399b2f62c466e3cf20aac8aa9f
+MD5: 2f2a37dd46fac7dd9b9b30eff82984bd
 
 - Default folder: `/opt/downloads`, `/opt/torrents`. You can change in the WebUI settings after installed.
 - Default user and password: user, ctorrent. Create env to change, AUTH=user:ctorrent
