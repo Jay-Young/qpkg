@@ -4,7 +4,7 @@
 
 | App            |   Latest   |                                            Download                                            |                           Description                            |
 | :------------- | :--------: | :--------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: |
-| Code Server    |   3.5.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/code-server/qvscode_3.5.0.qpkg)      |         Self-hosted third-party Visual Studio Codespaces         |
+| Code Server    |   3.6.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/code-server/qvscode_3.6.0.qpkg)      |         Self-hosted third-party Visual Studio Codespaces         |
 | Simple Torrent |   1.2.11   | [Click](https://github.com/Jay-Young/qpkg/raw/master/simple-torrent/simpletorrent_1.2.11.qpkg) | Self-hosted remote torrent client (rebranded from Cloud Torrent) |
 | KMS            | 2020-03-28 |         [Click](https://github.com/Jay-Young/qpkg/raw/master/kms/kms_2020-03-28.qpkg)          |                           KMS Emulator                           |
 | Hugo           |   0.70.0   |          [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg)          |          Framework for building websites written in go           |
@@ -29,9 +29,9 @@
 
 Source: <https://github.com/cdr/code-server>
 
-[Download Link](code-server/qvscode_3.5.0.qpkg)
+[Download Link](code-server/qvscode_3.6.0.qpkg)
 
-MD5: bb39e5899d988b65000f759915f0c7a1
+MD5: 71750d85c3293dbcbd7e2d0621ba5f20
 
 - Default port: 8080, default password: codeserver, default user data directory: `/share/***_DATA/.code-server/`
 - You can change the port and password in the config file(`/share/***_DATA/.qpkg/qvscode/config/config.yaml`), after that, just restart the app to apply the config.
