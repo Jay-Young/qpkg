@@ -13,6 +13,7 @@
 | QRBTF          |    1.2     |           [Click](https://github.com/Jay-Young/qpkg/raw/master/qrbtf/qrbtf_1.2.qpkg)           |       QRBTF is a simple web app to beautify your QR code.        |
 | GitHub CLI     |   1.0.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/githubcli/githubcli_1.0.0.qpkg)      |                 Take GitHub to the command line                  |
 | PowerShell     |   7.0.3    |     [Click](https://github.com/Jay-Young/qpkg/raw/master/powershell/powershell_7.0.3.qpkg)     |    Cross-platform automation and configuration tool/framework    |
+| Surf Game      |    1.0     |            [Click](https://github.com/Jay-Young/qpkg/raw/master/surf/surf_1.0.qpkg)            |                 Microsoft Edge Inside Game Surf                  |
 
 <!-- TOC -->
 
@@ -26,6 +27,7 @@
   - [7. QRBTF](#7-qrbtf)
   - [8. GitHub CLI](#8-github-cli)
   - [9. PowerShell](#9-powershell)
+  - [10. Surf Game](#10-surf-game)
 
 ## 1. Code Server
 
@@ -122,3 +124,13 @@ MD5: ad9779a338400a016f910b8a3480cfe7
 type `pwsh` in shell to use powershell
 
 If you are new to PowerShell and would like to learn more, we recommend reviewing the [getting started](https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell) documentation.
+
+## 10. Surf Game
+
+Source: <edge://surf> (click in Microsoft Edge)
+
+[Download Link](surf/surf_1.0.qpkg)
+
+MD5: 04cbf9faa712b32ec88e643a49dc567d
+
+![surf](surf/surf.png)
