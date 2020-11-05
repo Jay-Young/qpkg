@@ -4,7 +4,7 @@
 
 | App            |   Latest   |                                            Download                                            |                           Description                            |
 | :------------- | :--------: | :--------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: |
-| Code Server    |   3.6.1    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/code-server/qvscode_3.6.1.qpkg)      |         Self-hosted third-party Visual Studio Codespaces         |
+| Code Server    |   3.6.2    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/code-server/qvscode_3.6.2.qpkg)      |         Self-hosted third-party Visual Studio Codespaces         |
 | Simple Torrent |   1.2.11   | [Click](https://github.com/Jay-Young/qpkg/raw/master/simple-torrent/simpletorrent_1.2.11.qpkg) | Self-hosted remote torrent client (rebranded from Cloud Torrent) |
 | KMS            | 2020-03-28 |         [Click](https://github.com/Jay-Young/qpkg/raw/master/kms/kms_2020-03-28.qpkg)          |                           KMS Emulator                           |
 | Hugo           |   0.70.0   |          [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg)          |          Framework for building websites written in go           |
@@ -33,20 +33,22 @@
 
 Source: <https://github.com/cdr/code-server>
 
-[Download Link](code-server/qvscode_3.6.1.qpkg)
+[Download Link](code-server/qvscode_3.6.2.qpkg)
 
-MD5: d5dd08ba1d522b97a19cfc770c94aaae
+MD5: 07042b27b5a1ab78e4d2965f53bb2c24
 
 ---
 
 **Features**
 
-- ⭐ We've updated from VS Code v1.49.3 to v1.50.0.
-- Allow remote shells other than ssh when using the install script #2220
+- Updated coder cloud agent.
 
 **Bug Fixes**
 
-- Fix Docker image when using a custom UID #2223
+- Fix initial connection failures (at least one form of them).
+- Add more logging around connections to help us debug problems there.
+- Fix potential 500 when loading VS Code in parallel.
+- If the cloud agent fails to curl during an npm/yarn install it will no longer quit the install.
 
 ---
 
