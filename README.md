@@ -12,7 +12,7 @@
 | Bing Wallpaper |    1.0     |   [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.0.qpkg)   |  Automatically change QTS login screen background picture daily  |
 | QRBTF          |    1.2     |           [Click](https://github.com/Jay-Young/qpkg/raw/master/qrbtf/qrbtf_1.2.qpkg)           |       QRBTF is a simple web app to beautify your QR code.        |
 | GitHub CLI     |   1.0.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/githubcli/githubcli_1.0.0.qpkg)      |                 Take GitHub to the command line                  |
-| PowerShell     |   7.0.3    |     [Click](https://github.com/Jay-Young/qpkg/raw/master/powershell/powershell_7.0.3.qpkg)     |    Cross-platform automation and configuration tool/framework    |
+| PowerShell     |   7.1.1    |     [Click](https://github.com/Jay-Young/qpkg/raw/master/powershell/powershell_7.1.1.qpkg)     |    Cross-platform automation and configuration tool/framework    |
 | Surf Game      |    1.0     |            [Click](https://github.com/Jay-Young/qpkg/raw/master/surf/surf_1.0.qpkg)            |                 Microsoft Edge Inside Game Surf                  |
 
 <!-- TOC -->
@@ -134,9 +134,9 @@ For detailed manual here: <https://cli.github.com/manual>
 
 Source: <https://github.com/PowerShell/PowerShell>
 
-[Download Link](powershell/powershell_7.0.3.qpkg)
+[Download Link](powershell/powershell_7.1.1.qpkg)
 
-MD5: ad9779a338400a016f910b8a3480cfe7
+MD5: 3581d20e1c26899cc340fd8abbeba048
 
 type `pwsh` in shell to use powershell
 
