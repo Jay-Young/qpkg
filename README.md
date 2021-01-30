@@ -2,18 +2,19 @@
 
 > Note: test passed only with QNAP TS-453Bmini, x64 based.
 
-| App            |   Latest   |                                            Download                                            |                           Description                            |
-| :------------- | :--------: | :--------------------------------------------------------------------------------------------: | :--------------------------------------------------------------: |
-| Code Server    |   3.6.2    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/code-server/qvscode_3.6.2.qpkg)      |         Self-hosted third-party Visual Studio Codespaces         |
-| Simple Torrent |   1.2.11   | [Click](https://github.com/Jay-Young/qpkg/raw/master/simple-torrent/simpletorrent_1.2.11.qpkg) | Self-hosted remote torrent client (rebranded from Cloud Torrent) |
-| KMS            | 2020-03-28 |         [Click](https://github.com/Jay-Young/qpkg/raw/master/kms/kms_2020-03-28.qpkg)          |                           KMS Emulator                           |
-| Hugo           |   0.70.0   |          [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg)          |          Framework for building websites written in go           |
-| verysync       |   2.0.2    |       [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_2.0.2.qpkg)       |                     Sync client based on P2P                     |
-| Bing Wallpaper |    1.0     |   [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.0.qpkg)   |  Automatically change QTS login screen background picture daily  |
-| QRBTF          |    1.2     |           [Click](https://github.com/Jay-Young/qpkg/raw/master/qrbtf/qrbtf_1.2.qpkg)           |       QRBTF is a simple web app to beautify your QR code.        |
-| GitHub CLI     |   1.0.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/githubcli/githubcli_1.0.0.qpkg)      |                 Take GitHub to the command line                  |
-| PowerShell     |   7.1.1    |     [Click](https://github.com/Jay-Young/qpkg/raw/master/powershell/powershell_7.1.1.qpkg)     |    Cross-platform automation and configuration tool/framework    |
-| Surf Game      |    1.0     |            [Click](https://github.com/Jay-Young/qpkg/raw/master/surf/surf_1.0.qpkg)            |                 Microsoft Edge Inside Game Surf                  |
+| App            |   Latest   |                                            Download                                            |                            Description                            |
+| :------------- | :--------: | :--------------------------------------------------------------------------------------------: | :---------------------------------------------------------------: |
+| Code Server    |   3.6.2    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/code-server/qvscode_3.6.2.qpkg)      |         Self-hosted third-party Visual Studio Codespaces          |
+| Simple Torrent |   1.2.11   | [Click](https://github.com/Jay-Young/qpkg/raw/master/simple-torrent/simpletorrent_1.2.11.qpkg) | Self-hosted remote torrent client (rebranded from Cloud Torrent)  |
+| KMS            | 2020-03-28 |         [Click](https://github.com/Jay-Young/qpkg/raw/master/kms/kms_2020-03-28.qpkg)          |                           KMS Emulator                            |
+| Hugo           |   0.70.0   |          [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg)          |           Framework for building websites written in go           |
+| verysync       |   2.0.2    |       [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_2.0.2.qpkg)       |                     Sync client based on P2P                      |
+| Bing Wallpaper |    1.0     |   [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.0.qpkg)   |  Automatically change QTS login screen background picture daily   |
+| QRBTF          |    1.2     |           [Click](https://github.com/Jay-Young/qpkg/raw/master/qrbtf/qrbtf_1.2.qpkg)           |        QRBTF is a simple web app to beautify your QR code.        |
+| GitHub CLI     |   1.0.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/githubcli/githubcli_1.0.0.qpkg)      |                  Take GitHub to the command line                  |
+| PowerShell     |   7.1.1    |     [Click](https://github.com/Jay-Young/qpkg/raw/master/powershell/powershell_7.1.1.qpkg)     |    Cross-platform automation and configuration tool/framework     |
+| Surf Game      |    1.0     |            [Click](https://github.com/Jay-Young/qpkg/raw/master/surf/surf_1.0.qpkg)            |                  Microsoft Edge Inside Game Surf                  |
+| KSA            |    0.80    |            [Click](https://github.com/Jay-Young/qpkg/raw/master/ksa/KSA_0.80.qpkg)             | reverse proxy to expose a local server behind NAT to the Internet |
 
 <!-- TOC -->
 
@@ -28,6 +29,7 @@
   - [8. GitHub CLI](#8-github-cli)
   - [9. PowerShell](#9-powershell)
   - [10. Surf Game](#10-surf-game)
+  - [11. KSA](#11-ksa)
 
 ## 1. Code Server
 
@@ -151,3 +153,17 @@ Source: <edge://surf> (click in Microsoft Edge)
 MD5: 04cbf9faa712b32ec88e643a49dc567d
 
 ![surf](surf/surf.png)
+
+## 11. KSA
+
+Source: <https://ksa.kanxue.com/> (Chinese Website)
+
+[Download Link](ksa/KSA_0.80.qpkg)
+
+MD5: 44b6dfdb4dd5f6ca153ed6e4c2faa7ee
+
+KSA Service is only available for Windows, Linux and Mac. Check the KSA_ID and KSA_PSK in the "System Logs" panel.
+
+![image](ksa/Snipaste_2021-01-30_20-14-54.png)
+
+More usage here: [https://bbs.pediy.com/thread-252417.htm](https://bbs.pediy.com/thread-252417.htm) (Chinese Website)
