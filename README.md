@@ -11,7 +11,7 @@
 | verysync       |   2.0.2    |       [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_2.0.2.qpkg)       |                     Sync client based on P2P                      |
 | Bing Wallpaper |    1.0     |   [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.0.qpkg)   |  Automatically change QTS login screen background picture daily   |
 | QRBTF          |    1.2     |           [Click](https://github.com/Jay-Young/qpkg/raw/master/qrbtf/qrbtf_1.2.qpkg)           |        QRBTF is a simple web app to beautify your QR code.        |
-| GitHub CLI     |   1.0.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/githubcli/githubcli_1.0.0.qpkg)      |                  Take GitHub to the command line                  |
+| GitHub CLI     |   1.5.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/githubcli/githubcli_1.5.0.qpkg)      |                  Take GitHub to the command line                  |
 | PowerShell     |   7.1.1    |     [Click](https://github.com/Jay-Young/qpkg/raw/master/powershell/powershell_7.1.1.qpkg)     |    Cross-platform automation and configuration tool/framework     |
 | Surf Game      |    1.0     |            [Click](https://github.com/Jay-Young/qpkg/raw/master/surf/surf_1.0.qpkg)            |                  Microsoft Edge Inside Game Surf                  |
 | KSA            |    0.80    |            [Click](https://github.com/Jay-Young/qpkg/raw/master/ksa/KSA_0.80.qpkg)             | reverse proxy to expose a local server behind NAT to the Internet |
@@ -126,9 +126,9 @@ Source: <https://github.com/ciaochaos/qrbtf>
 
 Source: <https://github.com/cli/cli>
 
-[Download Link](githubcli/githubcli_1.0.0.qpkg)
+[Download Link](githubcli/githubcli_1.5.0.qpkg)
 
-MD5: 2fda03f70f4bfe0eb4a2af44444129cf
+MD5: a0c74dac9c4ede60340b5d75b4183c39
 
 For detailed manual here: <https://cli.github.com/manual>
 
