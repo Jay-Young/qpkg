@@ -15,6 +15,7 @@
 | PowerShell     |   7.1.1    |     [Click](https://github.com/Jay-Young/qpkg/raw/master/powershell/powershell_7.1.1.qpkg)     |    Cross-platform automation and configuration tool/framework     |
 | Surf Game      |    1.0     |            [Click](https://github.com/Jay-Young/qpkg/raw/master/surf/surf_1.0.qpkg)            |                  Microsoft Edge Inside Game Surf                  |
 | KSA            |    0.80    |            [Click](https://github.com/Jay-Young/qpkg/raw/master/ksa/KSA_0.80.qpkg)             | reverse proxy to expose a local server behind NAT to the Internet |
+| BestTrace      |    1.2     |       [Click](https://github.com/Jay-Young/qpkg/raw/master/besttrace/besttrace_1.2.qpkg)       |  Launch a traceroute request from your Linux system environment   |
 
 <!-- TOC -->
 
@@ -30,6 +31,7 @@
   - [9. PowerShell](#9-powershell)
   - [10. Surf Game](#10-surf-game)
   - [11. KSA](#11-ksa)
+  - [12. BestTrace](#12-besttrace)
 
 ## 1. Code Server
 
@@ -167,3 +169,52 @@ KSA Service is only available for Windows, Linux and Mac. Check the KSA_ID and K
 ![image](ksa/Snipaste_2021-01-30_20-14-54.png)
 
 More usage here: [https://bbs.pediy.com/thread-252417.htm](https://bbs.pediy.com/thread-252417.htm) (Chinese Website)
+
+## 12. BestTrace
+
+Source: <https://www.ipip.net>
+
+[Download Link](besttrace/besttrace_1.2.qpkg)
+
+MD5: f5f87df667f55193dbc7fd47c8a1d0c7
+
+Launch traceroute requests from your Linux (X86/ARM)/Mac/BSD system environment, with link visualization, better compatibility, and support for JSON output.
+
+<details>
+<summary>More usage</summary>
+
+```markdown
+Usage of besttrace host [ packetlen ]
+  -6, --ipv6
+        Use ipv6.
+  -J, --json
+        Print traceroute result with JSON format.
+  -g, --lang string
+        Language only supported cn and en now.
+  -m, --maxhop int
+        Specifies the maximum number of hops (max time-to-live value) traceroute will probe. The default is 30. (default 30)
+  -a, --noas
+        Do not try to map IP addresses to AS when displaying them.
+  -n, --nodomain
+        Do not try to map IP addresses to host names when displaying them.
+  -l, --nolocation
+        Do not try to map IP addresses to location when displaying them.
+  -q, --queries int
+        Sets the number of probe packets per hop. The default is 3. (default 3)
+  -z, --sendtime int
+        Minimal time interval between probes (default 0). 
+        If the value is more than 10, then it specifies a number in milliseconds, else it is a number of seconds (float point values allowed too). 
+        Useful when some routers use rate-limit for ICMP messages.
+  -f, --starthop int
+        Specifies with what TTL to start. Defaults to 1. (default 1)
+  --sync
+        Send icmp package by sync.
+  -T, --tcp
+        Use TCP SYN for probes.
+  -V, --version
+        Print the version and exit.
+  -w, --waittime int
+        Set the time (in seconds) to wait for a response to a probe. (default 3)
+```
+
+</details>
