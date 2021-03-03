@@ -9,10 +9,10 @@
 | [KMS](#3-kms)                       | 2020-03-28 |         [Click](https://github.com/Jay-Young/qpkg/raw/master/kms/kms_2020-03-28.qpkg)          |                           KMS Emulator                            |
 | [Hugo](#4-hugo)                     |   0.70.0   |          [Click](https://github.com/Jay-Young/qpkg/raw/master/hugo/qhugo_0.70.0.qpkg)          |           Framework for building websites written in go           |
 | [verysync](#5-verysync)             |   2.4.3    |       [Click](https://github.com/Jay-Young/qpkg/raw/master/verysync/verysync_2.4.3.qpkg)       |                     Sync client based on P2P                      |
-| [Bing Wallpaper](#6-bing-wallpaper) |    1.0     |   [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.0.qpkg)   |  Automatically change QTS login screen background picture daily   |
+| [Bing Wallpaper](#6-bing-wallpaper) |    1.1     |   [Click](https://github.com/Jay-Young/qpkg/raw/master/bingwallpaper/bingwallpaper_1.1.qpkg)   |  Automatically change QTS login screen background picture daily   |
 | [QRBTF](#7-qrbtf)                   |    1.2     |           [Click](https://github.com/Jay-Young/qpkg/raw/master/qrbtf/qrbtf_1.2.qpkg)           |        QRBTF is a simple web app to beautify your QR code.        |
 | [GitHub CLI](#8-github-cli)         |   1.5.0    |      [Click](https://github.com/Jay-Young/qpkg/raw/master/githubcli/githubcli_1.5.0.qpkg)      |                  Take GitHub to the command line                  |
-| [PowerShell](#9-powershell)         |   7.1.1    |     [Click](https://github.com/Jay-Young/qpkg/raw/master/powershell/powershell_7.1.1.qpkg)     |    Cross-platform automation and configuration tool/framework     |
+| [PowerShell](#9-powershell)         |   7.1.2    |     [Click](https://github.com/Jay-Young/qpkg/raw/master/powershell/powershell_7.1.2.qpkg)     |    Cross-platform automation and configuration tool/framework     |
 | [Surf Game](#10-surf-game)          |    1.0     |            [Click](https://github.com/Jay-Young/qpkg/raw/master/surf/surf_1.0.qpkg)            |                  Microsoft Edge Inside Game Surf                  |
 | [KSA](#11-ksa)                      |    0.80    |            [Click](https://github.com/Jay-Young/qpkg/raw/master/ksa/KSA_0.80.qpkg)             | reverse proxy to expose a local server behind NAT to the Internet |
 | [BestTrace](#12-besttrace)          |    1.2     |       [Click](https://github.com/Jay-Young/qpkg/raw/master/besttrace/besttrace_1.2.qpkg)       |  Launch a traceroute request from your Linux system environment   |
@@ -102,11 +102,19 @@ MD5: e533e452cffce22df7e19e9deda3e819
 
 ## 6. Bing Wallpaper
 
-[Download Link](bingwallpaper/bingwallpaper_1.0.qpkg)
+[Download Link](bingwallpaper/bingwallpaper_1.1.qpkg)
 
-MD5: a02c10fdedbaeac6a5b9fbe616fcfcf6
+MD5: c6f128025eff8c60c8188221b7b5584c
 
 Source: modified from <https://github.com/kkkgo/DSM_Login_BingWallpaper>
+
+**Changelog:**
+
+[1.1]
+
+- Change to download UHD(3840×2160) resolution images.
+
+**Usage:**
 
 - First you must change the login screen setting to the first template (single picture not the photo wall) in `Control Panel - General Settings - Login Screen`
 - Automatically download Bing wallpaper daily and set it as the QTS login screen background picture
@@ -146,9 +154,9 @@ For detailed manual here: <https://cli.github.com/manual>
 
 Source: <https://github.com/PowerShell/PowerShell>
 
-[Download Link](powershell/powershell_7.1.1.qpkg)
+[Download Link](powershell/powershell_7.1.2.qpkg)
 
-MD5: 3581d20e1c26899cc340fd8abbeba048
+MD5: 0a43634d14c327c1a90d6a194b34fa8a
 
 type `pwsh` in shell to use powershell
 
