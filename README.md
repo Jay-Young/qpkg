@@ -2,20 +2,21 @@
 
 > Note: test passed only with QNAP TS-453Bmini, x64 based, not for x86 or arm.
 
-| App                                 |   Latest   |                                            Download                                            |                            Description                            |
-| :---------------------------------- | :--------: | :--------------------------------------------------------------------------------------------: | :---------------------------------------------------------------: |
-| [Code Server](#1-code-server)       |   3.8.1    |      [Click](code-server/qvscode_3.8.1.qpkg)      |         Self-hosted third-party Visual Studio Codespaces          |
-| [Simple Torrent](#2-simple-torrent) |   1.2.11   | [Click](simple-torrent/simpletorrent_1.2.11.qpkg) | Self-hosted remote torrent client (rebranded from Cloud Torrent)  |
-| [KMS](#3-kms)                       | 2020-03-28 |         [Click](kms/kms_2020-03-28.qpkg)          |                           KMS Emulator                            |
-| [Hugo](#4-hugo)                     |   0.70.0   |          [Click](hugo/qhugo_0.70.0.qpkg)          |           Framework for building websites written in go           |
-| [verysync](#5-verysync)             |   2.4.3    |       [Click](verysync/verysync_2.4.3.qpkg)       |                     Sync client based on P2P                      |
-| [Bing Wallpaper](#6-bing-wallpaper) |    1.2     |   [Click](bingwallpaper/bingwallpaper_1.2_x86_64.qpkg)   |  Automatically change QTS login screen background picture daily   |
-| [QRBTF](#7-qrbtf)                   |    1.2     |           [Click](qrbtf/qrbtf_1.2.qpkg)           |        QRBTF is a simple web app to beautify your QR code.        |
-| [GitHub CLI](#8-github-cli)         |   1.5.0    |      [Click](githubcli/githubcli_1.5.0.qpkg)      |                  Take GitHub to the command line                  |
-| [PowerShell](#9-powershell)         |   7.1.2    |     [Click](powershell/powershell_7.1.2.qpkg)     |    Cross-platform automation and configuration tool/framework     |
-| [Surf Game](#10-surf-game)          |    1.0     |            [Click](surf/surf_1.0.qpkg)            |                  Microsoft Edge Inside Game Surf                  |
-| [KSA](#11-ksa)                      |    0.80    |            [Click](ksa/KSA_0.80.qpkg)             | reverse proxy to expose a local server behind NAT to the Internet |
-| [BestTrace](#12-besttrace)          |    1.2     |       [Click](besttrace/besttrace_1.2.qpkg)       |  Launch a traceroute request from your Linux system environment   |
+| App                                 |   Latest   |                       Download                       |                            Description                            |
+| :---------------------------------- | :--------: | :--------------------------------------------------: | :---------------------------------------------------------------: |
+| [Code Server](#1-code-server)       |   3.8.1    |       [Click](code-server/qvscode_3.8.1.qpkg)        |         Self-hosted third-party Visual Studio Codespaces          |
+| [Simple Torrent](#2-simple-torrent) |   1.2.11   |  [Click](simple-torrent/simpletorrent_1.2.11.qpkg)   | Self-hosted remote torrent client (rebranded from Cloud Torrent)  |
+| [KMS](#3-kms)                       | 2020-03-28 |           [Click](kms/kms_2020-03-28.qpkg)           |                           KMS Emulator                            |
+| [Hugo](#4-hugo)                     |   0.70.0   |           [Click](hugo/qhugo_0.70.0.qpkg)            |           Framework for building websites written in go           |
+| [verysync](#5-verysync)             |   2.4.3    |        [Click](verysync/verysync_2.4.3.qpkg)         |                     Sync client based on P2P                      |
+| [Bing Wallpaper](#6-bing-wallpaper) |    1.2     | [Click](bingwallpaper/bingwallpaper_1.2_x86_64.qpkg) |  Automatically change QTS login screen background picture daily   |
+| [QRBTF](#7-qrbtf)                   |    1.2     |            [Click](qrbtf/qrbtf_1.2.qpkg)             |        QRBTF is a simple web app to beautify your QR code.        |
+| [GitHub CLI](#8-github-cli)         |   1.5.0    |       [Click](githubcli/githubcli_1.5.0.qpkg)        |                  Take GitHub to the command line                  |
+| [PowerShell](#9-powershell)         |   7.1.2    |      [Click](powershell/powershell_7.1.2.qpkg)       |    Cross-platform automation and configuration tool/framework     |
+| [Surf Game](#10-surf-game)          |    1.0     |             [Click](surf/surf_1.0.qpkg)              |                  Microsoft Edge Inside Game Surf                  |
+| [KSA](#11-ksa)                      |    0.80    |              [Click](ksa/KSA_0.80.qpkg)              | reverse proxy to expose a local server behind NAT to the Internet |
+| [BestTrace](#12-besttrace)          |    1.2     |        [Click](besttrace/besttrace_1.2.qpkg)         |  Launch a traceroute request from your Linux system environment   |
+| [NASTool](#13-nastool)              |   2.5.1    |      [Click](nastool/nastool_2.5.1_x86_64.qpkg)      |                       影视资源的自动化管理                        |
 
 ## 1. Code Server
 
@@ -246,5 +247,25 @@ Set the time (in seconds) to wait for a response to a probe. (default 3)
 ```
 
 </details>
+
+🔙[Back to Index](#qpkg-list)🔙
+
+## 13. NASTool
+
+Source: <https://github.com/jxxghp/nas-tools>
+
+[Download Link](nastool/nastool_2.5.1_x86_64.qpkg)
+
+MD5: dc81bdbf2b2fc2ab5894f98a924615fd
+
+本打包 qpkg 依赖 python3，请首先安装 [python39](https://www.qnapclub.eu/en/qpkg/1134)，基于此版本，其他版本 python3 没有适配。
+
+默认使用 SSL 并使用 NAS 的证书 `/etc/stunnel/backup.cert`和`ssl_key: /etc/stunnel/backup.key`，请首先自行解决证书问题。
+
+安装以后，如果没有正常运行，检查依赖是否正确安装，如果依赖安装失败，管理后台会有消息通知。在应用商店里重启应用可以重新安装依赖。
+
+运行成功以后，登录用户名和密码都是 `qnap`，请不要使用 NASTool 自带的重启和更新功能，重启请到 QNAP 应用商店里操作，如有更新我可能会重新打包新版本。
+
+默认使用 Plex 和 Transmission，请自行安装或在设置中修改或其他软件。其他设置参看原项目 wiki。
 
 🔙[Back to Index](#qpkg-list)🔙
