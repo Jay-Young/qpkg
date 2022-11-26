@@ -16,7 +16,7 @@
 | [Surf Game](#10-surf-game)          |    1.0     |             [Click](surf/surf_1.0.qpkg)              |                  Microsoft Edge Inside Game Surf                  |
 | [KSA](#11-ksa)                      |    0.80    |              [Click](ksa/KSA_0.80.qpkg)              | reverse proxy to expose a local server behind NAT to the Internet |
 | [BestTrace](#12-besttrace)          |    1.2     |        [Click](besttrace/besttrace_1.2.qpkg)         |  Launch a traceroute request from your Linux system environment   |
-| [NASTool](#13-nastool)              |   2.5.1    |      [Click](nastool/nastool_2.5.1_x86_64.qpkg)      |                       影视资源的自动化管理                        |
+| [NASTool](#13-nastool)              |   2.5.2    |      [Click](nastool/nastool_2.5.2_x86_64.qpkg)      |                       影视资源的自动化管理                        |
 
 ## 1. Code Server
 
@@ -254,7 +254,7 @@ Set the time (in seconds) to wait for a response to a probe. (default 3)
 
 Source: <https://github.com/jxxghp/nas-tools>
 
-[Download Link](nastool/nastool_2.5.1_x86_64.qpkg)
+[Download Link](nastool/nastool_2.5.2_x86_64.qpkg)
 
 MD5: dc81bdbf2b2fc2ab5894f98a924615fd
 
