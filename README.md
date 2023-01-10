@@ -16,7 +16,7 @@
 | [Surf Game](#10-surf-game)          |    1.0     |             [Click](surf/surf_1.0.qpkg)              |                  Microsoft Edge Inside Game Surf                  |
 | [KSA](#11-ksa)                      |    0.80    |              [Click](ksa/KSA_0.80.qpkg)              | reverse proxy to expose a local server behind NAT to the Internet |
 | [BestTrace](#12-besttrace)          |    1.2     |        [Click](besttrace/besttrace_1.2.qpkg)         |  Launch a traceroute request from your Linux system environment   |
-| [NASTool](#13-nastool)              |   2.7.5    |      [Click](nastool/nastool_2.7.5_x86_64.qpkg)      |                       影视资源的自动化管理                        |
+| [NASTool](#13-nastool)              |   2.7.6    |      [Click](nastool/nastool_2.7.6_x86_64.qpkg)      |                       影视资源的自动化管理                        |
 
 ## 1. Code Server
 
@@ -256,9 +256,9 @@ Set the time (in seconds) to wait for a response to a probe. (default 3)
 
 Source: <https://github.com/jxxghp/nas-tools>
 
-[Download Link](nastool/nastool_2.7.5_x86_64.qpkg)
+[Download Link](nastool/nastool_2.7.6_x86_64.qpkg)
 
-MD5: 692b1f52e34eee5e0ac57a3800ee782c
+MD5: 40e324422618f734a0c73c331b112d72
 
 本打包 qpkg 依赖 python3，请首先安装 [python39](https://www.qnapclub.eu/en/qpkg/1134)，基于此版本，其他版本 python3 没有适配。
 
