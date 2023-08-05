@@ -16,7 +16,8 @@
 | [Surf Game](#10-surf-game)          |    1.0     |             [Click](surf/surf_1.0.qpkg)              |                  Microsoft Edge Inside Game Surf                  |
 | [KSA](#11-ksa)                      |    0.80    |              [Click](ksa/KSA_0.80.qpkg)              | reverse proxy to expose a local server behind NAT to the Internet |
 | [BestTrace](#12-besttrace)          |    1.2     |        [Click](besttrace/besttrace_1.2.qpkg)         |  Launch a traceroute request from your Linux system environment   |
-| [NASTool](#13-nastool)              |   2.9.1    |      [Click](nastool/nastool_2.9.1_x86_64.qpkg)      |                       影视资源的自动化管理                        |
+| [NASTool](#13-nastool)              |   2.9.1    |      [Click](nastool/nastool_2.9.1_x86_64.qpkg)      |                       影视资源的自动化管理                           |
+| [VueTorrent](#14-vuetorrent)        |   1.7.0    |      [Click](vuetorrent/vuetorrent_1.7.0.qpkg)       |    The sleekest looking WebUI for qBittorrent made with Vue.js    |
 
 ## 1. Code Server
 
@@ -271,5 +272,19 @@ MD5: ea59bd19d0007f209f9e080718279412
 运行成功以后，登录用户名和密码都是 `qnap`，请不要使用 NASTool 自带的重启和更新功能，重启请到 QNAP 应用商店里操作，如有更新我可能会重新打包新版本。**更新版本或者重新安装时请首先备份设置，安装以后恢复备份即可。备份及恢复选项位于 NASTool 的服务选项卡页面。**
 
 默认使用 Plex 和 Transmission，请自行安装或在设置中修改为其他软件。其他设置参看原项目 wiki。
+
+🔙[Back to Index](#qpkg-list)🔙
+
+## 14. VueTorrent
+
+Source: <https://github.com/WDaan/VueTorrent>
+
+[Downlod Link](vuetorrent/vuetorrent_1.7.0.qpkg)
+
+MD5: 2b781f10e1fd5380dc7f51fe434b060f
+
+**注意**: 安装 VueTorrent 之前请手动做好 qbittorrent 备份，同时停止所有任务，以防数据丢失。
+
+![vuetorrent](vuetorrent/screenshot-desktop.png)
 
 🔙[Back to Index](#qpkg-list)🔙
