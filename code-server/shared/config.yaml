@@ -1,6 +1,0 @@
-bind-addr: 0.0.0.0:8848
-auth: password
-password: qnap
-cert: /etc/stunnel/stunnel.pem
-cert-key: /etc/stunnel/stunnel.pem
-disable-update-check: true
