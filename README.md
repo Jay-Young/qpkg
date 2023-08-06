@@ -2,19 +2,19 @@
 
 > Note: test passed only with QNAP TS-453Bmini, x64 based, not for x86 or arm.
 
-| 应用程序                                    |  最新版本  |                               说明                                |
-| :------------------------------------------ | :--------: | :---------------------------------------------------------------: |
-| [Code Server](/code-server/README.md)       |   4.10.1   |         Self-hosted third-party Visual Studio Codespaces          |
-| [Simple Torrent](/simple-torrent/README.md) |   1.2.11   | Self-hosted remote torrent client (rebranded from Cloud Torrent)  |
-| [KMS](/kms/README.md)                       | 2020-03-28 |                           KMS Emulator                            |
-| [Hugo](/hugo/README.md)                     |   0.70.0   |           Framework for building websites written in go           |
-| [微力同步](/verysync/README.md)             |   2.4.3    |                一款在多个设备上同步文件的应用程序                 |
-| [Bing Wallpaper](/bingwallpaper/README.md)  |    1.2     |  Automatically change QTS login screen background picture daily   |
-| [QRBTF](/qrbtf/README.md)                   |    1.2     |        QRBTF is a simple web app to beautify your QR code.        |
-| [GitHub CLI](/githubcli/README.md)          |   1.5.0    |                  Take GitHub to the command line                  |
-| [PowerShell](/powershell/README.md)         |   7.1.2    |    Cross-platform automation and configuration tool/framework     |
-| [Surf Game](/surf/README.md)                |    1.0     |                  Microsoft Edge Inside Game Surf                  |
-| [KSA](/ksa/README.md)                       |    0.80    | reverse proxy to expose a local server behind NAT to the Internet |
-| [BestTrace](/besttrace/README.md)           |    1.2     |  Launch a traceroute request from your Linux system environment   |
-| [NASTool](/nastool/README.md)               |   2.9.1    |                       影视资源的自动化管理                        |
-| [VueTorrent](/vuetorrent/READNE.md)         |   1.7.0    |    The sleekest looking WebUI for qBittorrent made with Vue.js    |
+| 应用程序                           |  最新版本  |                      说明                      |
+| :--------------------------------- | :--------: | :--------------------------------------------: |
+| [Code Server](/code-server/)       |   4.10.1   | 私有化部署第三方 Visual Studio Code 在线编辑器 |
+| [Simple Torrent](/simple-torrent/) |   1.2.11   |        私有化部署在线 Bittorrent 客户端        |
+| [KMS](/kms/)                       | 2020-03-28 |                  KMS Emulator                  |
+| [Hugo](/hugo/)                     |   0.70.0   |          Go 语言实现的静态网站生成器           |
+| [微力同步](/verysync/)             |   2.4.3    |       一款在多个设备上同步文件的应用程序       |
+| [Bing Wallpaper](/bingwallpaper/)  |    1.2     |        每天自动更换 QTS 登录页面的壁纸         |
+| [QRBTF](/qrbtf/)                   |    1.2     |          简单易用的二维码美化生成工具          |
+| [GitHub CLI](/githubcli/)          |   1.5.0    |               Github 命令行工具                |
+| [PowerShell](/powershell/)         |   7.1.2    |    微软出品的跨平台命令行外壳程序和脚本环境    |
+| [Surf Game](/surf/)                |    1.0     |           微软 Edge 浏览器内置小游戏           |
+| [KSA](/ksa/)                       |    0.80    |         支持远程接入内网的看雪安全接入         |
+| [BestTrace](/besttrace/d)          |    1.2     |    高春辉的 ipip.net 出品的 Traceroute 工具    |
+| [NASTool](/nastool/)               |   2.9.1    |              影视资源的自动化管理              |
+| [VueTorrent](/vuetorrent/)         |   1.7.0    |        用 vue 实现的 qbittorrent webui         |

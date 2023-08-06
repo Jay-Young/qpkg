@@ -1,6 +1,6 @@
 # Simple Torrent
 
-源项目: <https://github.com/boypt/simple-torrent>
+源项目: <https://github.com/boypt/simple-torrent> (已废弃)
 
 - 默认下载目录`/opt/downloads`，默认种子目录`/opt/torrents`，设置中可修改。
 - 默认用户名和密码`user`和`ctorrent`。
