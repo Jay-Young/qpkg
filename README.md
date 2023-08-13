@@ -18,3 +18,4 @@
 | [BestTrace](/besttrace/d)          |    1.2     |    高春辉的 ipip.net 出品的 Traceroute 工具    |
 | [NASTool](/nastool/)               |   2.9.1    |              影视资源的自动化管理              |
 | [VueTorrent](/vuetorrent/)         |   1.7.0    |        用 vue 实现的 qbittorrent webui         |
+| [MoviePilot](/moviepilot/)         |   1.0.0    |  NAStool 原作者基于 NAStool 部分代码重新设计   |

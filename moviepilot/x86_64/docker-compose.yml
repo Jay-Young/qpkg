@@ -1,0 +1,52 @@
+version: '3.1'
+
+services:
+  moviepilot:
+    image: jxxghp/moviepilot:latest
+    restart: always
+    ports:
+      - 9528:3000 # 容器默认运行在3000端口上，映射到宿主的9528端口，可以自行修改，但修改后请把qpkg.cfg文件中的QPKG_WEB_PORT的值改成修改后的端口
+    environment:
+      # 以下环境变量示例仅供参考，请勿直接使用，更完整的变量说明请参考源项目
+      - NGINX_PORT=3000 # 容器默认运行端口
+      - SUPERUSER=qnap # 用户名
+      - SUPERUSER_PASSWORD=myqnap # 密码
+      - API_TOKEN=moviepilot
+      - TMDB_API_DOMAIN=api.tmdb.org
+      - DOWNLOAD_PATH=/Multimedia # 这是容器内的路径，随便填吧，反正最下面要做映射
+      - DOWNLOAD_MOVIE_PATH=/Multimedia/Movies # 必须是上面目录的子目录
+      - DOWNLOAD_TV_PATH=/Multimedia/TV-Dramas # 必须是上面目录的子目录
+      - DOWNLOAD_CATEGORY=false
+      - DOWNLOAD_SUBTITLE=false
+      - REFRESH_MEDIASERVER=true
+      - SCRAP_METADATA=true
+      - TORRENT_TAG=MOVIEPILOT
+      - LIBRARY_PATH=/Multimedia
+      - LIBRARY_MOVIE_NAME=电影
+      - LIBRARY_TV_NAME=电视剧
+      - LIBRARY_CATEGORY=false
+      - TRANSFER_TYPE=link
+      - COOKIECLOUD_HOST=114.114.114.114:8080 # CookieCloud服务器地址，格式：http://ip:port，必须配置，否则无法添加站点
+      - COOKIECLOUD_KEY=abc123def345ghi789 # CookieCloud用户KEY
+      - COOKIECLOUD_PASSWORD=abc123def345ghi789 # CookieCloud端对端加密密码
+      - COOKIECLOUD_INTERVAL=10
+      - USER_AGENT="Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/115.0.0.0"
+      - MESSAGER=wechat # 使用企业微信通知，可以设置成其他如 telegram, slack
+      - WECHAT_CORPID=ww123456789012 # 企业ID
+      - WECHAT_APP_SECRET=abc123def345ghi789abc123def345ghi789 # 企业应用Secret
+      - WECHAT_APP_ID=1234567 # 企业应用ID
+      - DOWNLOADER=qbittorrent # 下载器，支持qbittorrent/transmission
+      - QB_HOST=https://qnap.qbittorrent.com:8000 # qbittorrent地址，格式：ip:port，https需要添加https://前缀
+      - QB_USER=qnap # qbittorrent用户名
+      - QB_PASSWORD=qnap # qbittorrent密码
+      - MEDIASERVER=plex # 媒体服务器，支持emby/jellyfin/plex
+      - PLEX_HOST=http://qnap.plex.com:32400 # Plex服务器地址，格式：ip:port，https需要添加https://前缀
+      - PLEX_TOKEN=abc123def345ghi789 # Plex网页Url中的X-Plex-Token，通过浏览器F12->网络从请求URL中获取
+      - AUTH_SITE=hddolby #  认证站点，支持hhclub/audiences/hddolby/zmpt/freefarm/hdfans/wintersakura/leaves/1ptba/icc2022/iyuu，自选一种，下以hddolby认证为例
+      - HDDOLBY_ID=12345 # 用户ID，即数字格式的UID
+      - HDDOLBY_PASSKEY=abc123def345ghi789abc123def345ghi789 # 站点的密钥，即passkey，一般nexusphp价格在站点控制面板里查看
+      - BIG_MEMORY_MODE=false
+
+    volumes:
+      - ${PWD}/moviepilot:/moviepilot
+      - /share/CACHEDEV2_DATA/Multimedia:/Multimedia # 映射NAS中的真实媒体目录到容器内的媒体目录，根据自己的实际需求是否要对电影和电视剧的二级目录进行不同的映射
