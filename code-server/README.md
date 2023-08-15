@@ -9,7 +9,7 @@
 
 ![codeserver](/code-server/codeserver.png)
 
-[v4.10.1](https://github.com/Jay-Young/qpkg/releases)
+[v4.10.1](https://github.com/Jay-Young/qpkg/releases/tag/v4.10.1)
 
 - MD5: 53f66071035623d28722168e4b6c63ba
 
