@@ -49,4 +49,5 @@ services:
 
     volumes:
       - ${PWD}/moviepilot:/moviepilot
+      - ${PWD}/config:/config
       - /share/CACHEDEV2_DATA/Multimedia:/Multimedia # 映射NAS中的真实媒体目录到容器内的媒体目录，根据自己的实际需求是否要对电影和电视剧的二级目录进行不同的映射

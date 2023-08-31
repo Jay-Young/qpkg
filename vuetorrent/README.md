@@ -6,6 +6,10 @@
 
 ![vuetorrent](/vuetorrent/screenshot-desktop.png)
 
+[v1.7.3](https://github.com/Jay-Young/qpkg/releases/tag/v1.7.3)
+
+- MD5: e3385f98821478c07cf854307ac8a054
+
 [v1.7.0](/vuetorrent/build/vuetorrent_1.7.0.qpkg)
 
 - MD5: 2b781f10e1fd5380dc7f51fe434b060f
