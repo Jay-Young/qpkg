@@ -20,3 +20,4 @@
 | [VueTorrent](/vuetorrent/)             |   1.7.3    |        用 vue 实现的 qbittorrent webui         |
 | [MoviePilot](/moviepilot/)             |   1.0.0    |  NAStool 原作者基于 NAStool 部分代码重新设计   |
 | [ChineseSubFinder](/chinesesubfinder/) |   0.53.3   |               自动化中文字幕下载               |
+| [Vertex](/vertex/)                     | 2023-08-25 |   适用于 PT 玩家的追剧刷流一体化综合管理工具   |

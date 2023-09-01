@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+
+  vertex:
+    image: lswl/vertex:stable
+    restart: unless-stopped
+    ports:
+      - 9100:3000
+      - 9143:3443
+    environment:
+      TZ: Asia/Shanghai
+      HTTPS_ENABLE: true
+      HTTPS_PORT: 3443
+    volumes:
+      - ${PWD}/vertex:/vertex
