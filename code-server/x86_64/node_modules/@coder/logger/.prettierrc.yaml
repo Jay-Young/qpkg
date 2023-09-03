@@ -1,0 +1,4 @@
+printWidth: 95
+semi: false
+trailingComma: all
+arrowParens: always

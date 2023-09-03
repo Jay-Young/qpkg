@@ -4,7 +4,7 @@
 
 | 应用程序                               |  最新版本  |                             说明                              |
 | :------------------------------------- | :--------: | :-----------------------------------------------------------: |
-| [Code Server](/code-server/)           |   4.10.1   |        私有化部署第三方 Visual Studio Code 在线编辑器         |
+| [Code Server](/code-server/)           |   4.16.1   |        私有化部署第三方 Visual Studio Code 在线编辑器         |
 | [Simple Torrent](/simple-torrent/)     |   1.2.11   |               私有化部署在线 Bittorrent 客户端                |
 | [KMS](/kms/)                           | 2020-03-28 |                         KMS Emulator                          |
 | [Hugo](/hugo/)                         |   0.70.0   |                  Go 语言实现的静态网站生成器                  |

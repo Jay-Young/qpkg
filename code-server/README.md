@@ -2,12 +2,17 @@
 
 源项目: <https://github.com/coder/code-server>
 
+- 如果更新时遇到错误 `[App Center] Failed to install Code Server due to data file error.`，备份设置后卸载重新安装。
 - 默认端口: 8848, 默认密码: qnap, 默认用户数据目录: `/share/***_DATA/code-server/`。
 - 配置文件：`/share/***_DATA/.qpkg/qvscode/config.yaml`, 可手动修改端口、密码、证书位置, 重启 Code Server 应用修改。
 - 关于HTTPS, 使用 QNAP 默认位置的证书, 即`/etc/stunnel/stunnel.pem`, 后续证书更新, 重启 Code Server 应用新证书。
 - 注意不要对外公开发布, 程序拥有管理员权限，建议仅在内网或使用穿透或其他隧道工具连接，公网用户做好安全管理。
 
 ![codeserver](/code-server/codeserver.png)
+
+[v4.16.1](https://github.com/Jay-Young/qpkg/releases/tag/v_codeserver_4.16.1)
+
+- MD5: 450b1e5ecc61f8cd259a5dc3c443e788
 
 [v4.10.1](https://github.com/Jay-Young/qpkg/releases/tag/v4.10.1)
 

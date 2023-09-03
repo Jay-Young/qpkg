@@ -1,0 +1,84 @@
+{
+  "name": "argon2",
+  "version": "0.30.3",
+  "description": "An Argon2 library for Node",
+  "main": "argon2.js",
+  "files": [
+    "argon2.cpp",
+    "argon2.d.ts",
+    "binding.gyp",
+    "argon2/CHANGELOG.md",
+    "argon2/LICENSE",
+    "argon2/include/",
+    "argon2/src/blake2/",
+    "argon2/src/argon2.c",
+    "argon2/src/core.c",
+    "argon2/src/core.h",
+    "argon2/src/encoding.c",
+    "argon2/src/encoding.h",
+    "argon2/src/opt.c",
+    "argon2/src/ref.c",
+    "argon2/src/thread.c",
+    "argon2/src/thread.h"
+  ],
+  "types": "argon2.d.ts",
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build",
+    "format": "prettier --write \"**/*.{js,json,ts}\"",
+    "test": "c8 mocha test/test.js",
+    "test:ts": "tsc -p . && node test/test-d.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ranisalt/node-argon2.git"
+  },
+  "keywords": [
+    "argon2",
+    "crypto",
+    "encryption",
+    "hashing",
+    "password"
+  ],
+  "author": "Ranieri Althoff <ranisalt+argon2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ranisalt/node-argon2/issues"
+  },
+  "homepage": "https://github.com/ranisalt/node-argon2#readme",
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.10",
+    "@phc/format": "^1.0.0",
+    "node-addon-api": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "c8": "^7.12.0",
+    "mocha": "^10.2.0",
+    "node-gyp": "^9.3.1",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  },
+  "binary": {
+    "module_name": "argon2",
+    "module_path": "./lib/binding/napi-v{napi_build_version}",
+    "host": "https://github.com",
+    "remote_path": "./ranisalt/node-argon2/releases/download/v{version}",
+    "package_name": "{module_name}-v{version}-napi-v{napi_build_version}-{platform}-{arch}-{libc}.tar.gz",
+    "napi_versions": [
+      3
+    ]
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "standard": {
+    "env": "mocha",
+    "ignore": [
+      "test/test-d.js"
+    ]
+  },
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/node-argon2"
+  }
+}
