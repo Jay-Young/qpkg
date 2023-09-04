@@ -23,3 +23,4 @@
 | [Vertex](/vertex/)                     | 2023-08-25 |          适用于 PT 玩家的追剧刷流一体化综合管理工具           |
 | [TMDB Wallpaper](/tmdbBackdrop/)       |    1.0     | 每天自动更换 QTS 登录页面壁纸为 TMDB 今日趋势第一部影片的剧照 |
 | [trurl](/trurl/)                       |    0.8     |                  解析和操作 URL 的命令行工具                  |
+| [CookieCloud](/cookiecloud/)           |   0.2.2    |                自架服务器同步 Cookie 的小工具                 |

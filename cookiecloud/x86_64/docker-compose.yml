@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  cookiecloud:
+    image: easychen/cookiecloud:latest
+    container_name: cookiecloud-app
+    restart: always
+    volumes:
+      - ${PWD}/data:/data/api/data
+    ports:
+      - 8088:8088
