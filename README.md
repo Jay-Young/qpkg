@@ -24,3 +24,4 @@
 | [TMDB Wallpaper](/tmdbBackdrop/)       |    1.0     | 每天自动更换 QTS 登录页面壁纸为 TMDB 今日趋势第一部影片的剧照 |
 | [trurl](/trurl/)                       |    0.8     |                  解析和操作 URL 的命令行工具                  |
 | [CookieCloud](/cookiecloud/)           |   0.2.2    |                自架服务器同步 Cookie 的小工具                 |
+| [AutoBangumi](/autobangumi/)           |   3.0.12   |                    全自动追番整理下载工具                     |

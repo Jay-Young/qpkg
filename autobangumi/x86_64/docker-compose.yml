@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  AutoBangumi:
+    image: estrellaxd/auto_bangumi:latest
+    container_name: AutoBangumi
+    volumes:
+      - ${PWD}/config:/app/config
+      - ${PWD}/data:/app/data
+    ports:
+      - '7892:7892'
+    restart: unless-stopped
+    dns:
+      - 223.5.5.5
