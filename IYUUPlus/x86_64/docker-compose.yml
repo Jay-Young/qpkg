@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  iyuuplus:
+    image: iyuucn/iyuuplus
+    container_name: IYUUPlus
+    restart: always
+    ports:
+      - 8787:8787
+    volumes:
+      - ${PWD}/db:/IYUU/db
+      - /BT_backup:/BT_backup
+      - /torrents:/torrents
