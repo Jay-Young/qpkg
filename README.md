@@ -25,3 +25,4 @@
 | [trurl](/trurl/)                       |    0.8     |                  解析和操作 URL 的命令行工具                  |
 | [CookieCloud](/cookiecloud/)           |   0.2.2    |                自架服务器同步 Cookie 的小工具                 |
 | [AutoBangumi](/autobangumi/)           |   3.0.12   |                    全自动追番整理下载工具                     |
+| [IYUUPlus](/IYUUPlus/)                 |   2.1.19   |                      PT 站点自动辅种工具                      |
