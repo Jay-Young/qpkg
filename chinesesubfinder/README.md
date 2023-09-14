@@ -12,6 +12,10 @@
 
 ![ChineseSubFinder](/chinesesubfinder/chinesesubfinder.png)
 
+安装依赖：
+
+- container-station >= 2.0
+
 [v0.53.3](https://github.com/Jay-Young/qpkg/releases/tag/v0.53.3)
 
 - MD5: c68f0e98ce102681c7f2b5310b728b0e

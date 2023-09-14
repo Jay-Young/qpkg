@@ -2,7 +2,10 @@
 
 源项目: <https://github.com/WDaan/VueTorrent>
 
-**注意**: 安装 VueTorrent 之前请手动做好 qbittorrent 备份，同时停止所有任务，以防数据丢失。
+说明：
+
+- 安装 VueTorrent 之前请手动做好 qbittorrent 备份，同时停止所有任务，以防数据丢失。
+- 适配 QPKG 版本 qBittorrent，不适配 Docker 版本。
 
 ![vuetorrent](/vuetorrent/screenshot-desktop.png)
 

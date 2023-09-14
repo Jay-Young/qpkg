@@ -6,6 +6,8 @@ AutoBangumi 是基于 Mikan Project、qBittorrent 的全自动追番整理下载
 
 ![Alt text](./autobangumi.png)
 
+安装依赖：
+
 - container-station >= 2.0
 
 [v3.0.12](https://github.com/Jay-Young/qpkg/releases/tag/v_autobangumi_3.0.12)
