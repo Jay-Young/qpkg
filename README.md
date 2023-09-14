@@ -27,3 +27,4 @@
 | [AutoBangumi](/autobangumi/)               |   3.0.12   |                    全自动追番整理下载工具                     |
 | [IYUUPlus](/IYUUPlus/)                     |   2.1.19   |                      PT 站点自动辅种工具                      |
 | [PlexEditionManager](/PlexEditionManager/) |    1.0     |                 管理 Plex 电影版本信息的工具                  |
+| [PMS Auto Update](/pmsautoupdate/)         |    1.0     |                Plex Media Server 自动更新工具                 |
