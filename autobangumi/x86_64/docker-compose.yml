@@ -1,8 +1,8 @@
-version: '3.8'
+version: '3'
 
 services:
   AutoBangumi:
-    image: estrellaxd/auto_bangumi:latest
+    image: estrellaxd/auto_bangumi:3.1.1
     container_name: AutoBangumi
     volumes:
       - ${PWD}/config:/app/config

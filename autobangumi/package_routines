@@ -127,21 +127,21 @@
 # Define any package specific operations that shall be performed when
 # the package is installed.
 ######################################################################
-# pkg_pre_install(){
-# 	err_log() {
-# 		local write_msg="$CMD_LOG_TOOL -t2 -uSystem -p127.0.0.1 -mlocalhost -a"
-# 		[ -n "$1" ] && $CMD_ECHO "$1" && $write_msg "$1"
-# 	}
+pkg_pre_install(){
+	err_log() {
+		local write_msg="$CMD_LOG_TOOL -t2 -uSystem -p127.0.0.1 -mlocalhost -a"
+		[ -n "$1" ] && $CMD_ECHO "$1" && $write_msg "$1"
+	}
 
-# 	# Official QPKG will enable it when installed
-# 	SYS_QPKG_SERVICE_ENABLED="TRUE"
-# 	result=$(/usr/sbin/lsof -i :65000)
-# 	if [ -n "$result"  ] ;then
-# 		err_log "[App Center] WordPress installation failed. Port 65000 occupied"
-# 		set_progress_fail
-# 		exit 1
-# 	fi
-# }
+	# Official QPKG will enable it when installed
+	SYS_QPKG_SERVICE_ENABLED="TRUE"
+	result=$(/usr/sbin/lsof -i :7892)
+	if [ -n "$result"  ] ;then
+		err_log "[App Center] AutoBangumi installation failed. Port 7892 occupied"
+		set_progress_fail
+		exit 1
+	fi
+}
 #
 #pkg_install(){
 #}

@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# QPKG Information
 QPKG_NAME="autobangumi"
 QPKG_CONF=/etc/config/qpkg.conf
 QPKG_DIR=$(/sbin/getcfg $QPKG_NAME Install_Path -f $QPKG_CONF)
@@ -9,8 +8,12 @@ QCS_QPKG_DIR=$(/sbin/getcfg $QCS_NAME Install_Path -f $QPKG_CONF)
 QPKG_PROXY_FILE=/etc/container-proxy.d/$QPKG_NAME
 DOCKER_IMAGES=$(cat $QPKG_DIR/docker-images/DOCKER_IMAGES)
 
-DOCKER_CMD=$QCS_QPKG_DIR/bin/system-docker
-COMPOSE_CMD=$QCS_QPKG_DIR/bin/system-docker-compose
+DOCKER_CMD=$QCS_QPKG_DIR/bin/docker
+if [ $(getcfg container-station Version -f /etc/config/qpkg.conf | cut -d. -f1) > 2 ]; then
+	COMPOSE_CMD="$QCS_QPKG_DIR/bin/docker compose"
+else
+	COMPOSE_CMD=$QCS_QPKG_DIR/bin/docker-compose
+fi
 
 load_image() {
 	for docker_image in $DOCKER_IMAGES; do
@@ -35,7 +38,11 @@ case "$1" in
 		$COMPOSE_CMD up -d
 		;;
 	stop)
-		$COMPOSE_CMD down --remove-orphans
+		container_id=$($DOCKER_CMD ps -a --format "{{.ID}} {{.Names}}" | grep -i "$QPKG_NAME" | awk '{print $1}')
+		if [ -n "$container_id" ]; then
+			$DOCKER_CMD stop $container_id
+			$DOCKER_CMD rm -f $container_id
+		fi
 		;;
 	restart)
 		$0 stop
