@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BililiveRecorder.Web</name>
+    </assembly>
+    <members>
+        <member name="M:BililiveRecorder.Web.Api.ConfigController.GetDefaultConfig">
+            <summary>
+            获取软件默认设置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.ConfigController.GetGlobalConfig">
+            <summary>
+            获取全局设置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.ConfigController.SetGlobalConfig(BililiveRecorder.Web.Models.SetGlobalConfig)">
+            <summary>
+            设置全局设置
+            </summary>
+            <param name="config"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.FileController.GetFiles(System.String)">
+            <summary>
+            获取录播目录文件信息
+            </summary>
+            <param name="path" example="/">路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.LogController.GetJsonLog(System.Nullable{System.Int64})">
+            <summary>
+            获取 JSON 日志
+            </summary>
+            <param name="after">只获取此 id 之后的日志</param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.MiscController.GenerateFileName(BililiveRecorder.Web.Models.Rest.GenerateFileNameInput)">
+            <summary>
+            根据传入参数生成录播文件名
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.GetRooms">
+            <summary>
+            列出所有直播间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.CreateRoom(BililiveRecorder.Web.Models.Rest.CreateRoomDto)">
+            <summary>
+            添加直播间
+            </summary>
+            <param name="createRoom"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.DeleteRoom(System.Int32)">
+            <summary>
+            删除直播间
+            </summary>
+            <param name="roomId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.DeleteRoom(System.Guid)">
+            <summary>
+            删除直播间
+            </summary>
+            <param name="objectId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.GetRoom(System.Int32)">
+            <summary>
+            读取一个直播间
+            </summary>
+            <param name="roomId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.GetRoom(System.Guid)">
+            <summary>
+            读取一个直播间
+            </summary>
+            <param name="objectId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.GetRoomRecordingStats(System.Int32)">
+            <summary>
+            读取直播间录制统计信息
+            </summary>
+            <param name="roomId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.GetRoomRecordingStats(System.Guid)">
+            <summary>
+            读取直播间录制统计信息
+            </summary>
+            <param name="objectId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.GetRoomIOStats(System.Int32)">
+            <summary>
+            读取直播间 IO 统计信息
+            </summary>
+            <param name="roomId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.GetRoomIOStats(System.Guid)">
+            <summary>
+            读取直播间 IO 统计信息
+            </summary>
+            <param name="objectId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.GetRoomConfig(System.Int32)">
+            <summary>
+            读取直播间设置
+            </summary>
+            <param name="roomId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.GetRoomConfig(System.Guid)">
+            <summary>
+            读取直播间设置
+            </summary>
+            <param name="objectId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.SetRoomConfig(System.Int32,BililiveRecorder.Web.Models.SetRoomConfig)">
+            <summary>
+            修改直播间设置
+            </summary>
+            <param name="roomId"></param>
+            <param name="config"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.SetRoomConfig(System.Guid,BililiveRecorder.Web.Models.SetRoomConfig)">
+            <summary>
+            修改直播间设置
+            </summary>
+            <param name="objectId"></param>
+            <param name="config"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.StartRecording(System.Int32)">
+            <summary>
+            开始录制
+            </summary>
+            <param name="roomId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.StartRecording(System.Guid)">
+            <summary>
+            开始录制
+            </summary>
+            <param name="objectId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.StopRecording(System.Int32)">
+            <summary>
+            停止录制
+            </summary>
+            <param name="roomId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.StopRecording(System.Guid)">
+            <summary>
+            停止录制
+            </summary>
+            <param name="objectId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.SplitRecording(System.Int32)">
+            <summary>
+            手动分段
+            </summary>
+            <param name="roomId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.SplitRecording(System.Guid)">
+            <summary>
+            手动分段
+            </summary>
+            <param name="objectId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.RefreshRecordingAsync(System.Int32)">
+            <summary>
+            刷新直播间信息
+            </summary>
+            <param name="roomId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.RoomController.RefreshRecordingAsync(System.Guid)">
+            <summary>
+            刷新直播间信息
+            </summary>
+            <param name="objectId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BililiveRecorder.Web.Api.VersionController.GetVersion">
+            <summary>
+            读取软件版本信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.FileNameTemplateContextDto.Json">
+            <example>{}</example>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.Files.FileDto.IsFolder">
+            <example>false</example>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.Files.FolderDto.IsFolder">
+            <example>true</example>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.GenerateFileNameInput.Template">
+            <summary>
+            文件名模板
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.GenerateFileNameInput.Context">
+            <summary>
+            生成文件名使用的参数，如不提供则使用默认测试数据。
+            </summary>
+        </member>
+        <member name="F:BililiveRecorder.Web.Models.Rest.RestApiErrorCode.Unknown">
+            <summary>
+            错误
+            </summary>
+        </member>
+        <member name="F:BililiveRecorder.Web.Models.Rest.RestApiErrorCode.RoomidOutOfRange">
+            <summary>
+            房间号不在允许的范围内
+            </summary>
+        </member>
+        <member name="F:BililiveRecorder.Web.Models.Rest.RestApiErrorCode.RoomExist">
+            <summary>
+            房间已存在
+            </summary>
+        </member>
+        <member name="F:BililiveRecorder.Web.Models.Rest.RestApiErrorCode.RoomNotFound">
+            <summary>
+            房间不存在
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomIOStatsDto.StreamHost">
+            <summary>
+            直播服务器域名
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomIOStatsDto.StartTime">
+            <summary>
+            当前统计区间的开始时间
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomIOStatsDto.EndTime">
+            <summary>
+            当前统计区间的结束时间
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomIOStatsDto.Duration">
+            <summary>
+            当前统计区间的时长，毫秒
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomIOStatsDto.NetworkBytesDownloaded">
+            <summary>
+            下载了的数据量
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomIOStatsDto.NetworkMbps">
+            <summary>
+            平均下载速度，mibi-bits per second
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomIOStatsDto.DiskWriteDuration">
+            <summary>
+            统计区间内的磁盘写入耗时，毫秒
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomIOStatsDto.DiskBytesWritten">
+            <summary>
+            统计区间内写入磁盘的数据量
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomIOStatsDto.DiskMBps">
+            <summary>
+            平均写入速度，mibi-bytes per second
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.SessionDuration">
+            <summary>
+            从录制开始到现在一共经过的时间，毫秒
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.TotalInputBytes">
+            <summary>
+            总接受字节数
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.TotalOutputBytes">
+            <summary>
+            总写入字节数
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.CurrentFileSize">
+            <summary>
+            当前文件的大小
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.SessionMaxTimestamp">
+            <summary>
+            本次直播流收到的最大时间戳（已修复过，相当于总时长，毫秒）
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.FileMaxTimestamp">
+            <summary>
+            当前文件的最大时间戳（相当于总时长，毫秒）
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.AddedDuration">
+            <summary>
+            当前这一个统计区间的直播数据时长，毫秒
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.PassedTime">
+            <summary>
+            当前这一个统计区间所经过的时间长度，毫秒
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.DurationRatio">
+            <summary>
+            录制速度比例
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.InputVideoBytes">
+            <summary>
+            当前统计区间新收到的视频数据大小
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.InputAudioBytes">
+            <summary>
+            当前统计区间新收到的音频数据大小
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.OutputVideoFrames">
+            <summary>
+            当前统计区间新写入的视频帧数量
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.OutputAudioFrames">
+            <summary>
+            当前统计区间新写入的音频帧数量
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.OutputVideoBytes">
+            <summary>
+            当前统计区间新写入的视频数据大小
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.OutputAudioBytes">
+            <summary>
+            当前统计区间新写入的音频数据大小
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.TotalInputVideoBytes">
+            <summary>
+            总共收到的视频数据大小
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.TotalInputAudioBytes">
+            <summary>
+            总共收到的音频数据大小
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.TotalOutputVideoFrames">
+            <summary>
+            总共写入的视频帧数量
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.TotalOutputAudioFrames">
+            <summary>
+            总共写入的音频帧数量
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.TotalOutputVideoBytes">
+            <summary>
+            总共写入的视频数据大小
+            </summary>
+        </member>
+        <member name="P:BililiveRecorder.Web.Models.Rest.RoomRecordingStatsDto.TotalOutputAudioBytes">
+            <summary>
+            总共写入的音频数据大小
+            </summary>
+        </member>
+    </members>
+</doc>
