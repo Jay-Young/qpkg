@@ -29,4 +29,4 @@
 | [PlexEditionManager](/PlexEditionManager/) |    1.0     |  原生  |                 管理 Plex 电影版本信息的工具                  |
 | [PMS Auto Update](/pmsautoupdate/)         |    1.0     |  原生  |                Plex Media Server 自动更新工具                 |
 | [IT Tools](/it-tools/)                     | 2023.8.21  |  原生  |                 适用于 IT 开发人员的实用工具                  |
-| [B 站录播姬](/BililiveRecorder/)           |   2.9.1    |  原生  |         一个方便好用免费开源的 mikufans 直播录制工具          |
+| [B 站录播姬](/BililiveRecorder/)           |   2.10.0   |  原生  |         一个方便好用免费开源的 mikufans 直播录制工具          |
