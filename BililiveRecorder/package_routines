@@ -134,9 +134,16 @@ pkg_pre_install(){
   VolMP_ROOT=$(/sbin/getcfg SHARE_DEF defVolMP -f /etc/config/def_share.info)
   if [ ! -d "$VolMP_ROOT/Download" ]; then
     /sbin/addshare Download "$VolMP_ROOT/Download" -ar -aw
+    if [ -d "$VolMP_ROOT/Download" ]; then
+      cd "$VolMP_ROOT/Download"
+      mkdir "BililiveRecorder"
+    elif [ ! -d "$VolMP_ROOT/Download" ]; then
+      /sbin/log_tool -t2 -a"[B站录播姬] 下载共享目录创建失败，请手动创建。"
+      exit 1
+    fi
   elif [ ! -d "$VolMP_ROOT/Download/BililiveRecorder" ]; then
     cd "$VolMP_ROOT/Download"
-    mkdir -p BililiveRecorder
+    mkdir BililiveRecorder
   fi
 }
 #
