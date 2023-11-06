@@ -6,14 +6,17 @@
 
 ![BililiveRecorder](./BililiveRecorder.png)
 
+- 需要安装 `ffmpeg` 且加入系统环境变量。
 - 理论上会自动新建工作目录，默认为共享文件夹 `Download` 下新建的 `BililiveRecorder` 文件夹。如果安装失败，请手动创建工作目录。
 - 默认端口 `8923`，用户名 `qnap`，密码取 `$HOSTNAME` 的值，即控制台常规设置里的服务器名称，如果本机默认位置 `/etc/stunnel/` 存在证书，则以 `HTTPS` 运行，否则以 `HTTP` 运行。
 
 [v2.10.1](https://github.com/Jay-Young/qpkg/releases/tag/v2.10.1_BililiveRecorder)
 
+此前版本犯了个愚蠢的错误，创建下载目录和工作目录命令的条件判断有问题。
+
 - MD5:
-  - arm_64: 06ee2f4f41e4aea43abe8bdc5009b6bc
-  - x86_64: a05c94de09decc928b5c33932173aaee
+  - arm_64: cdc0014b5c7a4cfbbc08b54e46cea595
+  - x86_64: d50b697f84ac05d50445cb0eaa4f4af7
 
 [v2.10.0](https://github.com/Jay-Young/qpkg/releases/tag/v2.10.0_BililiveRecorder)
 
