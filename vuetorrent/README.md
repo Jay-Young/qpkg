@@ -9,6 +9,10 @@
 
 ![vuetorrent](/vuetorrent/screenshot-desktop.png)
 
+[v2.2.0](https://github.com/Jay-Young/qpkg/releases/tag/v2.2.0_vuetorrent)
+
+- MD5: 96514ca18bff561bb7c032b5ae5c37eb
+
 [v2.1.0](https://github.com/Jay-Young/qpkg/releases/tag/v2.1.0_vuetorrent)
 
 - MD5: 7e784ce3239c1c597493385430b91bd1
