@@ -10,6 +10,12 @@
 - 理论上会自动新建工作目录，默认为共享文件夹 `Download` 下新建的 `BililiveRecorder` 文件夹。如果安装失败，请手动创建工作目录。
 - 默认端口 `8923`，用户名 `qnap`，密码取 `$HOSTNAME` 的值，即控制台常规设置里的服务器名称，如果本机默认位置 `/etc/stunnel/` 存在证书，则以 `HTTPS` 运行，否则以 `HTTP` 运行。
 
+[v2.11.0](https://github.com/Jay-Young/qpkg/releases/tag/v2.11.0_BililiveRecorder)
+
+- MD5:
+  - arm_64: 1b72b74b7b2b55eafb214cbed33f302f
+  - x86_64: 4438082bb6119cff196c7f7ead00d585
+
 [v2.10.1](https://github.com/Jay-Young/qpkg/releases/tag/v2.10.1_BililiveRecorder)
 
 此前版本犯了个愚蠢的错误，创建下载目录和工作目录命令的条件判断有问题。

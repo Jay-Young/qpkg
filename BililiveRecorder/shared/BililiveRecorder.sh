@@ -31,7 +31,7 @@ case "$1" in
   stop)
     pid=$(lsof -i:8923 | awk '{print $2}' | grep -v PID)
     if [ -n "$pid" ]; then
-      kill "$pid"
+      kill -9 "$pid"
     fi
     ;;
 
