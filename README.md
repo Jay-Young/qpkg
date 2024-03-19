@@ -17,7 +17,7 @@
 | [KSA](/ksa/)                               |    0.80    |  原生  |                支持远程接入内网的看雪安全接入                 |
 | [BestTrace](/besttrace/d)                  |    1.2     |  原生  |           高春辉的 ipip.net 出品的 Traceroute 工具            |
 | [NASTool](/nastool/)                       |   2.9.1    |  原生  |                     影视资源的自动化管理                      |
-| [VueTorrent](/vuetorrent/)                 |   2.7.0    |  原生  |                用 vue 实现的 qbittorrent webui                |
+| [VueTorrent](/vuetorrent/)                 |   2.7.2    |  原生  |                用 vue 实现的 qbittorrent webui                |
 | [MoviePilot](/moviepilot/)                 |   1.0.0    | docker |          NAStool 原作者基于 NAStool 部分代码重新设计          |
 | [ChineseSubFinder](/chinesesubfinder/)     |   0.53.3   | docker |                      自动化中文字幕下载                       |
 | [Vertex](/vertex/)                         | 2023-08-25 | docker |          适用于 PT 玩家的追剧刷流一体化综合管理工具           |
