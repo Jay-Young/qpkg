@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {},
     ".NETCoreApp,Version=v6.0/linux-x64": {
-      "BililiveRecorder.Cli/2.11.0": {
+      "BililiveRecorder.Cli/2.11.1": {
         "dependencies": {
           "BililiveRecorder.Core": "1.0.0",
           "BililiveRecorder.ToolBox": "1.0.0",
@@ -2473,7 +2473,7 @@
     }
   },
   "libraries": {
-    "BililiveRecorder.Cli/2.11.0": {
+    "BililiveRecorder.Cli/2.11.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
