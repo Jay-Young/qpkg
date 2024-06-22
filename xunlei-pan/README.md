@@ -6,6 +6,10 @@
 
 ![xunlei-pan](./xunlei.bmp)
 
+[v3.21.0](https://github.com/Jay-Young/qpkg/releases/tag/v3.21.0_xunlei-pan)
+
+- MD5: 523e2e5a5d917ad0a828cae89a2bda83
+
 [v3.19.2](https://github.com/Jay-Young/qpkg/releases/tag/v3.19.2_xunlei-pan)
 
 - MD5: eb2a6a1047a8fa0879d7a93d44d14020
