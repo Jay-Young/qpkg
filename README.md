@@ -29,7 +29,7 @@
 | [PlexEditionManager](/PlexEditionManager/) |    1.0     |  原生  |                 管理 Plex 电影版本信息的工具                  |
 | [PMS Auto Update](/pmsautoupdate/)         |    1.0     |  原生  |                Plex Media Server 自动更新工具                 |
 | [IT Tools](/it-tools/)                     | 2023.11.1  |  原生  |                 适用于 IT 开发人员的实用工具                  |
-| [B 站录播姬](/BililiveRecorder/)           |   2.13.0   |  原生  |         一个方便好用免费开源的 mikufans 直播录制工具          |
+| [B 站录播姬](/BililiveRecorder/)           |   2.14.0   |  原生  |         一个方便好用免费开源的 mikufans 直播录制工具          |
 | [cURL](/cURL/)                             |   8.4.0    |  原生  |       基于网络协议，对指定 URL 进行网络传输的命令行工具       |
 | [迅雷](/xunlei-pan/)                       |   3.21.0   |  原生  |                   不用过多介绍的迅雷下载器                    |
 | [ZeroTier](/zerotier/)                     |   1.14.2   |  原生  |                   异地组网工具（内网穿透）                    |

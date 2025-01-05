@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {},
     ".NETCoreApp,Version=v8.0/linux-x64": {
-      "BililiveRecorder.Cli/2.13.0": {
+      "BililiveRecorder.Cli/2.14.0": {
         "dependencies": {
           "BililiveRecorder.Core": "1.0.0",
           "BililiveRecorder.ToolBox": "1.0.0",
@@ -2440,7 +2440,7 @@
         "runtime": {
           "BililiveRecorder.Core.dll": {
             "assemblyVersion": "1.0.0",
-            "fileVersion": "2.13.0.0"
+            "fileVersion": "2.14.0.0"
           }
         }
       },
@@ -2460,7 +2460,7 @@
         "runtime": {
           "BililiveRecorder.Flv.dll": {
             "assemblyVersion": "1.0.0",
-            "fileVersion": "2.13.0.0"
+            "fileVersion": "2.14.0.0"
           }
         }
       },
@@ -2476,7 +2476,7 @@
         "runtime": {
           "BililiveRecorder.ToolBox.dll": {
             "assemblyVersion": "1.0.0",
-            "fileVersion": "2.13.0.0"
+            "fileVersion": "2.14.0.0"
           }
         }
       },
@@ -2502,7 +2502,7 @@
         "runtime": {
           "BililiveRecorder.Web.dll": {
             "assemblyVersion": "1.0.0",
-            "fileVersion": "2.13.0.0"
+            "fileVersion": "2.14.0.0"
           }
         }
       },
@@ -2517,7 +2517,7 @@
     }
   },
   "libraries": {
-    "BililiveRecorder.Cli/2.13.0": {
+    "BililiveRecorder.Cli/2.14.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

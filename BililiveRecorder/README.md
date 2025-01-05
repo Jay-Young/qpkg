@@ -9,6 +9,13 @@
 - 需要安装 `ffmpeg` 且加入系统环境变量。
 - 理论上会自动新建工作目录，默认为共享文件夹 `Download` 下新建的 `BililiveRecorder` 文件夹。如果安装失败，请手动创建工作目录。
 - 默认端口 `8923`，用户名 `qnap`，密码取 `$HOSTNAME` 的值，即控制台常规设置里的服务器名称，如果本机默认位置 `/etc/stunnel/` 存在证书，则以 `HTTPS` 运行，否则以 `HTTP` 运行。
+- 运行后无法正常访问 WEB 页面，一般可能是这个错误 `/lib/libstdc++.so.6: version 'GLIBCXX_3.4.21' not found (required by ./BililiveRecorder.Cli)`，系统的 gcc 版本太低，找个包含 `GLIBCXX_3.4.21` 的 `libstdc++` 重新链接下即可，示例：`ln -sf /你的目录/libstdc++.so.6.0.25 /lib/libstdc++.so.6`
+
+[v2.14.0](https://github.com/Jay-Young/qpkg/releases/tag/v2.14.0_BililiveRecorder)
+
+- MD5:
+  - arm_64: 0d576fb45da5183b7f1e07ec7ef618b4
+  - x86_64: 40f417c19011c10d16dd4e9575dda9dd
 
 [v2.13.0](https://github.com/Jay-Young/qpkg/releases/tag/v2.13.0_BililiveRecorder)
 
