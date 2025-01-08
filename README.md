@@ -1,6 +1,6 @@
 # QPKG list
 
-> Note: test passed only with QNAP TS-453Bmini, x64 based, not for x86 or arm.
+> Note: test passed only with QNAP TS-453Bmini, x86-64 based, not for x86-32 or arm.
 
 | 应用程序                                   |  最新版本  |  类型  |                             说明                              |
 | :----------------------------------------- | :--------: | :----: | :-----------------------------------------------------------: |
@@ -33,3 +33,4 @@
 | [cURL](/cURL/)                             |   8.4.0    |  原生  |       基于网络协议，对指定 URL 进行网络传输的命令行工具       |
 | [迅雷](/xunlei-pan/)                       |   3.21.0   |  原生  |                   不用过多介绍的迅雷下载器                    |
 | [ZeroTier](/zerotier/)                     |   1.14.2   |  原生  |                   异地组网工具（内网穿透）                    |
+| [Moodist](/moodist/)                       |    1.0     |  原生  |               有助于专注与放松的环境白噪声网站                |
