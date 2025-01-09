@@ -15,7 +15,7 @@
 | [PowerShell](/powershell/)                 |   7.1.2    |  原生  |           微软出品的跨平台命令行外壳程序和脚本环境            |
 | [Surf Game](/surf/)                        |    1.0     |  原生  |                  微软 Edge 浏览器内置小游戏                   |
 | [KSA](/ksa/)                               |    0.80    |  原生  |                支持远程接入内网的看雪安全接入                 |
-| [BestTrace](/besttrace/d)                  |    1.2     |  原生  |           高春辉的 ipip.net 出品的 Traceroute 工具            |
+| [BestTrace](/besttrace/)                   |    1.2     |  原生  |           高春辉的 ipip.net 出品的 Traceroute 工具            |
 | [NASTool](/nastool/)                       |   2.9.1    |  原生  |                     影视资源的自动化管理                      |
 | [VueTorrent](/vuetorrent/)                 |   2.19.0   |  原生  |                用 vue 实现的 qbittorrent webui                |
 | [MoviePilot](/moviepilot/)                 |   1.0.0    | docker |          NAStool 原作者基于 NAStool 部分代码重新设计          |
@@ -34,3 +34,4 @@
 | [迅雷](/xunlei-pan/)                       |   3.21.0   |  原生  |                   不用过多介绍的迅雷下载器                    |
 | [ZeroTier](/zerotier/)                     |   1.14.2   |  原生  |                   异地组网工具（内网穿透）                    |
 | [Moodist](/moodist/)                       |    1.0     |  原生  |               有助于专注与放松的环境白噪声网站                |
+| [chsrc](/chsrc/)                           |  0.1.9.7   |  原生  |                   全平台通用换源工具与框架                    |
