@@ -35,3 +35,4 @@
 | [ZeroTier](/zerotier/)                     |   1.14.2   |  原生  |                   异地组网工具（内网穿透）                    |
 | [Moodist](/moodist/)                       |    1.0     |  原生  |               有助于专注与放松的环境白噪声网站                |
 | [chsrc](/chsrc/)                           |  0.1.9.7   |  原生  |                   全平台通用换源工具与框架                    |
+| [Certimate](/certimate/)                   |  0.2.24b   |  原生  |                    开源的 SSL 证书管理工具                    |
