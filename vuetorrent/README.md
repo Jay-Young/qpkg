@@ -11,7 +11,7 @@
 
 [v2.27.0](https://github.com/Jay-Young/qpkg/releases/tag/v2.27.0_vuetorrent)
 
-- MD5: 63c96b42c4989abdb9cdb70dc1ea99cd
+- MD5: c13755f6d5bd0d5aea91a76d9f915aa2
 
 [v2.23.0](https://github.com/Jay-Young/qpkg/releases/tag/v2.23.0_vuetorrent)
 
